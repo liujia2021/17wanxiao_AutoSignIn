@@ -18,9 +18,7 @@ jobs:
         python-version: '3.7'
     - name: 'Install requirements'
       run: |
-        pip install -r selenium
-        pip install -r requests
-        pip install -r pycryptodome
+        pip install -r selenium requests pycryptodome
        
     - name: Install ChromeDriver
       run: |
